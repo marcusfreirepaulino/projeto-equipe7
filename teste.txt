@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-Daniel esteve aqui
-=======
 1. primeira alteração. lets the conflicts beggin sla 
->>>>>>> e4e80d79f7bed7486c6f16767060989369bb2c41
+2. Daniel esteve aqui
