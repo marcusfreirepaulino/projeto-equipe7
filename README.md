@@ -8,3 +8,4 @@ e iremos fazer uma página da web com o perfil dos nossos integrantes, conectado
 ## Colaboradores
 
 [Luan Mesquita](https://github.com/LuanMs1)
+[Marcus Vinicius](https://github.com/marcusfreirepaulino)
