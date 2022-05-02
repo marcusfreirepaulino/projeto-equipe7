@@ -7,5 +7,7 @@ e iremos fazer uma página da web com o perfil dos nossos integrantes, conectado
 
 ## Colaboradores
 
-[Luan Mesquita](https://github.com/LuanMs1)
-[Marcus Vinicius](https://github.com/marcusfreirepaulino)
+[Luan Mesquita](https://github.com/LuanMs1) <br/>
+[Marcus Vinicius](https://github.com/marcusfreirepaulino) <br/>
+[Izadora Cristina](https://github.com/I-zadora) <br/>
+[Daniel Barbosa](https://github.com/dbbtiz)
