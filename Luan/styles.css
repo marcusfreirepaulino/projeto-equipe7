@@ -1,0 +1,43 @@
+.center{
+    display:block;
+    margin-right:auto;
+    margin-left: auto;
+}
+p{
+    font-family: sans-serif;
+}
+.circular{
+    position:relative;
+    width:150px;
+    height:150px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.circular img{
+    width: 100%;
+    height: auto;
+}
+
+aside{
+    background-color: rgba(73, 128, 247, 0.336);
+    border-right:solid 1px gray;
+    scroll-margin-left:unset;
+    width: 180px;
+    height: 1000px;
+}
+article{
+    width: 1000px;
+    margin-left: 10px;
+    margin-right: auto;
+    
+}
+header{
+    height:30px;
+    background-color:rgba(73, 128, 247, 0.336);
+}
+header p{
+    text-align:justify;
+}
+.corpo{
+    display: flex;
+}
