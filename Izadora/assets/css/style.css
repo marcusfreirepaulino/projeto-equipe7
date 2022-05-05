@@ -81,6 +81,10 @@ header .menu{
     text-align:center;
     
 }
+#comment{
+    border:solid 2px black;
+
+}
 footer{
     position: fixed;
     left: 0;
