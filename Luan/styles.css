@@ -1,43 +1,105 @@
 .center{
-    display:block;
-    margin-right:auto;
-    margin-left: auto;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
 }
 p{
     font-family: sans-serif;
 }
+/* ------------------------- */
+/* MAKING A IMAGE CIRCULAR */
 .circular{
     position:relative;
     width:150px;
     height:150px;
     overflow:hidden;
     border-radius: 50%;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right: auto;
 }
 .circular img{
+    
     width: 100%;
     height: auto;
 }
 
+/* ---------------------------- */
+
+/* STYLE OF THE MAIN COMPONENTS OF THE PAGE */
+
+.corpo{
+    display: flex;
+}
 aside{
+    overflow: hidden;
     background-color: rgba(73, 128, 247, 0.336);
     border-right:solid 1px gray;
     scroll-margin-left:unset;
-    width: 180px;
+    width: 300px;
     height: 1000px;
 }
+header{
+    overflow: hidden;
+    background-color:rgb(11, 40, 102);
+}
+header a{
+    float:left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+header a:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+}
+a.home{
+    background-color: black;
+    color:white;
+    
+}
 article{
-    width: 1000px;
-    margin-left: 10px;
+    width: 90%;
+    margin-left: auto;
     margin-right: auto;
     
 }
-header{
-    height:30px;
-    background-color:rgba(73, 128, 247, 0.336);
+/* -------------------------------------- */
+/* Fazendo a parte de comentários */
+.coment{
+    border: solid 1px black;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 4px;
+    
 }
-header p{
-    text-align:justify;
+dl{
+    margin-top:0;
 }
-.corpo{
-    display: flex;
+dl dt{
+    background-color: rgba(73, 128, 247, 0.336);
+    border-bottom:solid 1px gray;
+    margin-top:0;
+}
+dl dd{
+    padding:10px;
+}
+/* changing some link properties */
+.logo{
+    overflow: hidden;
+    width: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.logo:hover{
+    transform:scale(1.2);
 }
