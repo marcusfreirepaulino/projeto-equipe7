@@ -1,3 +1,8 @@
+body{
+    margin:0;
+    background-color: black;
+    color:white;
+}
 .center{
     margin-left:auto;
     margin-right: auto;
@@ -33,15 +38,16 @@ p{
 /* STYLE OF THE MAIN COMPONENTS OF THE PAGE */
 
 .corpo{
-    display: flex;
+    display: flex;    
+    height:100vh;
 }
 aside{
     overflow: hidden;
-    background-color: rgba(73, 128, 247, 0.336);
+    background-color: rgba(11, 40, 102, 0.623);
     border-right:solid 1px gray;
     scroll-margin-left:unset;
     width: 300px;
-    height: 1000px;
+    /* height: 1000px; */
 }
 header{
     overflow: hidden;
