@@ -1,0 +1,46 @@
+a:hover{
+    color:#315EE5;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family:Bebas Neue;
+
+}
+.link-nomes{
+    font-size: 50px;
+    text-align: center;
+    padding-inline: 100px;
+}
+img{
+    width: 200x;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.bloco-perfil:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.bloco-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity:0.8;
+    transition: 0.3s;
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+header{
+    font-size: 25px;
+
+}
