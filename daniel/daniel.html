@@ -18,23 +18,16 @@
         }
         aside{
             background-color: grey;
-            width: 405px;
+            
             border: solid 3px black;
         }
         header{
             height: 100px;
         }
+        
         #foto-nome{
-            width: 400px;
-            margin-top: 30px;
-            margin-left: 30px;
-            text-align: left;
-            
-            font-size: 15px;
-        }
-        #foto-perfil{
-            margin-left: 55px;
-            border: solid 3px black;
+            text-align: center;
+            padding-top: 20px;
         }
         #redes-sociais{
             
@@ -46,6 +39,9 @@
         .logotipo{
             width: 60px; height: 60px;
             padding: 10px;
+        }
+        .logotipo:hover{
+            width: 80px; height: 80px;
         }
         #info{
             width: 400px;
@@ -69,12 +65,9 @@
         }
         section{
             background-color: rgb(16, 117, 117);
-            width: 907px;
-            height: 537px;
-            position: absolute;
-            margin-left: 420px;
-            margin-top: -544px;
+            display: block;
             border: solid 3px black;
+            margin-left: 2px;
         }
         .menu:hover{
             color:rgb(16, 117, 117);
@@ -84,7 +77,11 @@
             font-size: 25px;
             font-weight: bolder;
         }
+        #corpo{
+            display: flex;
+        }
     </style>
+    
     
 </head>
 <body>
@@ -99,9 +96,10 @@
         </table>
         </div>
     </header>
+    <div id="corpo">
     <aside>
     <div id="foto-nome">
-        <img src="foto-daniel.jpg" width="200" height="200" id="foto-perfil">
+        <img src="foto-daniel.jpg" width="200" height="200" style="border:solid 3px black">
     </div>
     <h2 style="text-align: left; margin-left: 30px;">< Daniel Barbosa Rocha ></h2>
     <div id="redes-sociais">
@@ -109,7 +107,7 @@
             <img src="../logos/facebook-logo.png" class="logotipo">
         </a>
         <a href="https://twitter.com/danicreu_" target="black">
-            <img src="../logos/twitter-logo.png" style="width: 65px; height: 65px;" class="logotipo">
+            <img src="../logos/twitter-logo.png"  class="logotipo">
         </a>
         <a href="https://www.instagram.com/daniel.rocha_/" target="black">
             <img src="../logos/instagram-logo.png" class="logotipo">
@@ -125,11 +123,12 @@
     </div>
     </aside>
     <section>
-        <h1 style="text-align: center; font-size: 50px;" >Biografia</h1>
+        <h1 style="text-align: center; font-size: 50px;"  >Biografia</h1>
         <p> Oi, meu nome é Daniel Barbosa, tenho 18 anos e sou de São José Dos Campos - SP.
             Desde pequeno gosto de tecnologia e na adolescencia eu aprendi programação,
             hoje sou aspirante a desenvolvedor pelo alpha edtech. Também gosto muito 
             de futebol, sou torcedor do corinthians e jogo futebol como hobbie. </p>
     </section>
+    </div>
 </body>
 </html>
