@@ -27,41 +27,44 @@ header .menu{
     display: flex;
     
 }
-
-.container{
+header a:hover{
+    color:black;
+    border: 2px solid black;
+}
+.âncoras{
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+#corpo{
     display: flex;
-    height:100vh;
 }
-.container .leftside{
-    flex: 1;
+aside .logotipo:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    
+}
+aside{
+    border: solid 3px black;
+    border-top: 0px;
+    height: 100vh;
+    width: fit-content;
     background-color:#a5a9af;
-    border:solid 2px black;
-
-}
-.container .rightside{
-    
-    flex: 1;
-    background-color: #ddd;
-    border:solid 2px black;
-    display:flex;
-    align-items:center;
-    flex-direction: column;
-    margin-top: 70px;
-    
 }
 #img-redonda{
 
     margin-top: 100px;
-    margin-left: 220px;
+    margin-left: 130px;
     background-color: #ddd;
     border-radius: 50%;
-    height: 200px;
+    height: 140px;
+    width: 140px;
     object-fit: cover;
-    width: 200px;
+   border: solid 2px #ddd;
 }
 .name{
-    text-align: left; 
-    margin-left: 200px;
+    text-align: center; 
+    margin-left: 10px;
 }
 
 #redes{
@@ -73,17 +76,28 @@ header .menu{
     margin-left: 300px;
 }
 .logotipo{
-    width: 60px; height: 60px;
-    padding: 40px;
+    width: 35px; height: 35px;
+    padding: 30px;
 }
 #info{
-    width: 650px;
+    width: 400px;
     text-align:center;
     
 }
-footer{
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.article{
+    background-color: rgb(209, 205, 205);
+}
+
+#bio{
+    border:solid 3px black;
+    border-top:10px;
+    border-left: 0px;
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 70px;
+}
+p{
+    padding-inline: 100px;
+    font-size:larger;
+    font-weight:bolder;
 }
