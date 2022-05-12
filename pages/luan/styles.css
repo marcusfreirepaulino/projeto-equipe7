@@ -91,12 +91,12 @@ article{
 dl{
     margin-top:0;
 }
-dl dt{
+dt{
     background-color: rgba(73, 128, 247, 0.336);
     border-bottom:solid 1px gray;
     margin-top:0;
 }
-dl dd{
+dd{
     padding:10px;
 }
 /* changing some link properties */
